@@ -1,2 +1,2 @@
 # Manual Test
-Upload Image Function on GitHub
+Upload Image function on GitHub
