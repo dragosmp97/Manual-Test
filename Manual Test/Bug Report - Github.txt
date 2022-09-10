@@ -1,28 +1,28 @@
 1.Bug				ID: 			1.4;
-				Title: 		Test if selection dialog shows only supported files listed;
+				Title: 			Test if selection dialog shows only supported files listed;
 				Reported: 		Dragos Pop;
-				Submit Date: 	09-09-2022;
+				Submit Date: 		09-09-2022;
 
 
-2.Bug Overview		Description: 	The test verifies if the dialog box have two  drop downs: "All files" and "Image files";
+2.Bug Overview			Description: 		The test verifies if the dialog box have two  drop downs: "All files" and "Image files";
 				URL: 			https://github.com/settings/profile;
 
 
-3.Environment		Browser: 		Chrome;
+3.Environment			Browser: 		Chrome;
  				Browser Version:	Version 105.0.5195.102 (Official Build) (64-bit);
  				Operatin System:	Windows 11 Home 21H2;
  				OS build: 		22000.918;
 
 
-4.Bug Details		Steps to reproduce:  	- Open the browser and navigate to the link https://github.com/
- 								- Click on "Sign in"
- 								- Enter valid username and password
-								- Right-up on the page click on your avatar and select "Settings"
- 								- Click "Edit" on your avatar and select "Upload a photo..."
- 								- Check if the file selection dialog shows only supported files listed ex: Image files;		
-				Expected result: 		File dialog box should have two drop downs -> "All Files" and "Image Files";
+4.Bug Details			Steps to reproduce:  	- Open the browser and navigate to the link https://github.com/
+ 							- Click on "Sign in"
+ 							- Enter valid username and password
+							- Right-up on the page click on your avatar and select "Settings"
+ 							- Click "Edit" on your avatar and select "Upload a photo..."
+ 							- Check if the file selection dialog shows only supported files listed ex: Image files;		
+				Expected result: 	File dialog box should have two drop downs -> "All Files" and "Image Files";
 				Actual result:		File dialog box has only one drop down-> "All Files";
 
 
-5.Bug Tracking		Priority: Low;
+5.Bug Tracking			Priority: Low;
 				Severity: Low.
